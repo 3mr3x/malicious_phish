@@ -1,0 +1,15 @@
+Makine öğrenimi: Normalizasyon ve Standartizasyon
+Makine öğrenmesi, büyük veri setlerinden elde edilen bilgilerin çıkarılmasına yardımcı olur. Ancak, bu veri setlerinin analiz edilmesi, doğru ve etkin bir şekilde yapılmalıdır. Normalizasyon ve standartlaştırma, makine öğrenmelerinin daha etkili bir şekilde çalıştırılmasını sağlayan önemli bir adım temsil eder.. Her ikisi de, belirli bir aralığa veya standart bir dağılıma dönüştürülmesini sağlar. Bu makale, normalizasyon ve standardizasyonun ne işe yaradığını ve aralarındaki farkları genişliyor.
+
+Normalleşme
+Normalizasyon, verilerin belirli bir aralığa dönüştürülmesi işlemi olarak sağlanır. Genellikle, bu aralık 0 ile 1 arasında, ancak -1 ile 1 arasında olabilir. Normalizasyon sayesinde farklı özellikler karşılaştırılabilir hale gelir, çünkü artık hepsi aynı boyutta olacaktır. Bu işlem genellikle en küçük ve en büyük değerlerin belirlenmesi ve daha sonra bu değerlerin düşürülmesi yöntemi ile sonuç.
+
+Atandartlaştırma
+Standartlaştırma, verinin genellikle ortalamasının 0 ve standart sapmasının 1 olduğu bir standart normal dağılıma dönüştürme işlemidir. Bu, bir değerin ortalamasından çıkarılması ve sonrasında standart sapmaya göre elde edilir. Bu şekilde, veri setindeki her bir değer ortalamaya göre ne kadar standarttan saptığını gösterir.
+Normalizasyon ve Standartizasyon Arasındaki Farklar
+Normalizasyon ve standartlaştırma, her ne kadar benzer şekilde çalışsalar da, bazı önemli geçişleri vardır.
+
+Ölçek: Normalizasyon, verinin belirli bir aralığa ölçeklendirilmesini sağlarken, standartlaştırma veriyi standart bir normal dağılıma yayılır.
+Aykırı Değer Etkisi: Standartlaştırma, aykırı değerlerin etkilerini etkilemez, çünkü bu değerler verinin ortalamasını ve standart sapmasını etkiler. Öte yandan, normalleştirme, tüm veri değerleri belirli bir aralığa getirdiği için aykırı'ların bakış açısına göre.
+Alanları: Standartizasyon genellikle regresyon, nöral ağlar ve PCA (Principal Component Analysis) gibi makine öğrenmelerinde kullanılırken, normalizasyon genellikle min-max ölçeklemesi gereksinimlerinde, örneğin K-en yakın komşular ve genetik operasyonlar, kullanım amaçlı.
+Sonuç olarak, makine öğrenmesi uygulamalarında normalizasyon ve standartlaştırma önemli ve için kullanılan fotoğrafların doğası ve özelliklerine bağlı olarak birinden yönü tercih edilebilir. Her iki teknik de verinin uygun bir şekilde uçuşlarını sağlar ve modelin genel performanslarını artırır. Bununla birlikte, her iki teknik arasındaki temel farklılıklarn bilincinde olmak ve her insan ne zaman kullanımını anlamak, makine öğrenme uygulamaları etkileyici sonuçlara ulaşmak için önemlidir.
